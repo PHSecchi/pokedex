@@ -1,0 +1,29 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: crimson;
+}
+
+.content{
+    padding: 1rem;
+    width: 100vw;
+    height: 100vw;
+    background-color:white;
+}
+
+.content h1{
+    margin: 0;
+    font-size: 4rem;
+    text-align: center;
+    color: crimson;
+    background-color:white;
+}
+
+/* Responsividade */
+@media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        margin: auto;
+        border-radius: 2rem;
+    }
+  }
